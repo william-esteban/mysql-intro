@@ -74,7 +74,7 @@ SELECT COUNT(*) AS usuarios_registrados_colombia FROM users WHERE pais = 'colomb
 
 
 
--- con esto puedo ver que clases de genero existen en mi base de datos.
+-- *** con esto puedo ver que clases de genero existen en mi base de datos.
 SELECT DISTINCT musica FROM users;
--- con este codigo vemos cuantos usuarios escuchan cada genero.
+-- *** con este codigo vemos cuantos usuarios escuchan cada genero.
 SELECT musica, COUNT(*) AS users FROM users GROUP BY musica
